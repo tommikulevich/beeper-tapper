@@ -1,0 +1,15 @@
+[submodule "drivers/ARM/CMSIS"]
+	path = drivers/ARM/CMSIS
+	url = https://github.com/ARM-software/CMSIS_5
+[submodule "drivers/ARM/RTOS"]
+	path = drivers/ARM/RTOS
+	url = https://github.com/ARM-software/CMSIS-FreeRTOS
+[submodule "drivers/STM32F0xx-Nucleo/CMSIS_Device"]
+	path = drivers/STM32F0xx-Nucleo/CMSIS_Device
+	url = https://github.com/STMicroelectronics/cmsis-device-f0
+[submodule "drivers/STM32F0xx-Nucleo/BSP"]
+	path = drivers/STM32F0xx-Nucleo/BSP
+	url = https://github.com/STMicroelectronics/stm32f0xx-nucleo-bsp
+[submodule "drivers/STM32F0xx-Nucleo/HAL"]
+	path = drivers/STM32F0xx-Nucleo/HAL
+	url = https://github.com/STMicroelectronics/stm32f0xx-hal-driver
