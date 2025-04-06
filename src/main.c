@@ -18,6 +18,8 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
+#include "uart.h"
+
 #include "utils.h"
 #include "io_pins.h"
 
@@ -60,6 +62,7 @@ void vApplicationStackOverflowHook( TaskHandle_t xTask UNUSED_PARAM,
 
 int main( void ) {
     HAL_Init();
+    uart_init();
 
     xTaskCreate(vDummyBlinkTask, "Dummy Blink Task", 
         configMINIMAL_STACK_SIZE, NULL, 1, NULL);
